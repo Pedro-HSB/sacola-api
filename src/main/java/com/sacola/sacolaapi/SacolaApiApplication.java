@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SacolaApiApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SacolaApiApplication.class, args);
+		System.out.println("teste");
 	}
 
 }
